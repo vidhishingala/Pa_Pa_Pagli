@@ -55,12 +55,12 @@ class MyAdapter(): RecyclerView.Adapter<MyAdapter.MyHolder>() {
                     context.startActivity(intent)
                 }
                 1 -> {
-                    var intent = Intent(context,FlowerActivity::class.java)
+                    var intent = Intent(context,AlphabetActivity::class.java)
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                     context.startActivity(intent)
                 }
                 2 -> {
-                    var intent = Intent(context,FlowerActivity::class.java)
+                    var intent = Intent(context,NumberActivity::class.java)
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                     context.startActivity(intent)
                 }
@@ -85,17 +85,17 @@ class MyAdapter(): RecyclerView.Adapter<MyAdapter.MyHolder>() {
                     context.startActivity(intent)
                 }
                 1 -> {
-                    var intent = Intent(context,FlowerActivity::class.java)
+                    var intent = Intent(context,VegetableActivity::class.java)
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                     context.startActivity(intent)
                 }
                 2 -> {
-                    var intent = Intent(context,FlowerActivity::class.java)
+                    var intent = Intent(context,MonthActivity::class.java)
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                     context.startActivity(intent)
                 }
                 3 -> {
-                    var intent = Intent(context,FlowerActivity::class.java)
+                    var intent = Intent(context,WeekActivity::class.java)
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                     context.startActivity(intent)
                 }

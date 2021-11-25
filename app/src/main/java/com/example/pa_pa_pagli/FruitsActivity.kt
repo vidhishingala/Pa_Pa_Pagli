@@ -19,7 +19,7 @@ class FruitsActivity : AppCompatActivity() {
         gridview.adapter = adapter
 
         gridview.setOnItemClickListener { adapterView, view, i, l ->
-            var intent = Intent(this, FlowerDetailActivity::class.java)
+            var intent = Intent(this, FruitsDetailActivity::class.java)
             intent.putExtra("fruname",fruits[i])
             startActivity(intent)
         }

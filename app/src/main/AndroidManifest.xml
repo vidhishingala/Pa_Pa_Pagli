@@ -9,17 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Pa_Pa_Pagli">
-        <activity android:name=".FruitsDetailActivity"></activity>
-        <activity android:name=".FruitsActivity">
-
-        </activity>
+        <activity android:name=".AlphabetDetailActivity"></activity>
+        <activity android:name=".AlphabetActivity" />
+        <activity android:name=".VegetableDetailActivity" />
+        <activity android:name=".VegetableActivity" />
+        <activity android:name=".VegetablesActivity" />
+        <activity android:name=".NumberDetailActivity" />
+        <activity android:name=".NumberActivity" />
+        <activity android:name=".MonthDetailActivity" />
+        <activity android:name=".MonthActivity" />
+        <activity android:name=".WeekDetailActivity" />
+        <activity android:name=".WeekActivity" />
+        <activity android:name=".FruitsDetailActivity" />
+        <activity android:name=".FruitsActivity" />
         <activity android:name=".FamilyDetailActivity" />
-        <activity android:name=".FamilyActivity"></activity>
+        <activity android:name=".FamilyActivity" />
         <activity android:name=".BirdsDetailActivity" />
         <activity android:name=".BirdsActivity" />
         <activity android:name=".AnimalDetailActivity" />
         <activity android:name=".AnimalActivity" />
-        <activity android:name=".FlowerActivity"></activity>
+        <activity android:name=".FlowerActivity" />
         <activity android:name=".FlowerDetailActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
